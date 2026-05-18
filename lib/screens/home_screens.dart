@@ -45,6 +45,17 @@ class HomeScreen extends StatelessWidget {
                 'Comecar aventura',
               ),
             ),
+
+            const SizedBox(height: 16),
+
+            ElevatedButton(
+
+              onPressed: () {},
+
+              child: const Text(
+                'Sobre o jogo',
+              ),
+            ),
           ],
         ),
       ),
