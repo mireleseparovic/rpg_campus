@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/home_screens.dart';
+import 'screens/home_screen.dart';
 
 void main() {
 
@@ -16,12 +16,16 @@ class RpgCampusApp extends StatelessWidget {
     return MaterialApp(
 
       title: 'RPG Campus',
-
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.green,
-        ),
-      ),
+       colorScheme: ColorScheme.fromSeed(
+       seedColor: Colors.green,
+  ),
+
+    appBarTheme: const AppBarTheme(
+    backgroundColor: Colors.blue,
+    foregroundColor: Colors.white,
+  ),
+),
 
       home: const HomeScreen(),
     );
